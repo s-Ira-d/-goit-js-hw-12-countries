@@ -737,13 +737,13 @@ function onInput(e) {
         countryList.innerHTML = "";
         countryInfo.innerHTML = "";
         if (countries.length > 10) (0, _core.error)({
-            text: "\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u0431\u0430\u0433\u0430\u0442\u043E \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0456\u0432. \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0431\u0456\u043B\u044C\u0448 \u0441\u043F\u0435\u0446\u0438\u0444\u0456\u0447\u043D\u0438\u0439 \u0437\u0430\u043F\u0438\u0442."
+            text: "\u0437\u0430\u043D\u0430\u0434\u0442\u043E \u0431\u0430\u0433\u0430\u0442\u043E \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0456\u0432. \u0432\u0432\u0435\u0434\u0456\u0442\u044C \u0431\u0456\u043B\u044C\u0448 \u0441\u043F\u0435\u0446\u0438\u0444\u0456\u0447\u043D\u0438\u0439 \u0437\u0430\u043F\u0438\u0442."
         });
         else if (countries.length === 1) renderCountryInfo(countries[0]);
         else renderCountryList(countries);
     }).catch(()=>{
         (0, _core.error)({
-            text: "\u041A\u0440\u0430\u0457\u043D\u0443 \u043D\u0435 \u0437\u043D\u0430\u0439\u0434\u0435\u043D\u043E"
+            text: "\u043A\u0440\u0430\u0457\u043D\u0443 \u043D\u0435 \u0437\u043D\u0430\u0439\u0434\u0435\u043D\u043E"
         });
         countryList.innerHTML = "";
         countryInfo.innerHTML = "";

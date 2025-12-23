@@ -26,7 +26,7 @@ function onInput(e) {
 
       if (countries.length > 10) {
         error({
-          text: "Занадто багато результатів. Введіть більш специфічний запит.",
+          text: "занадто багато результатів. введіть більш специфічний запит.",
         });
       } else if (countries.length === 1) {
         renderCountryInfo(countries[0]);
@@ -35,7 +35,7 @@ function onInput(e) {
       }
     })
     .catch(() => {
-      error({ text: "Країну не знайдено" });
+      error({ text: "країну не знайдено" });
       countryList.innerHTML = "";
       countryInfo.innerHTML = "";
     });
