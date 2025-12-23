@@ -1,0 +1,19 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir build"
+  },
+  "keywords": [],
+  "author": "Ira",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "lodash.debounce": "^4.0.8"
+  }
+}

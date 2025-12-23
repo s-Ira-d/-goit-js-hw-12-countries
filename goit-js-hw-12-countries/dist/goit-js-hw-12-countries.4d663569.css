@@ -1,0 +1,27 @@
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#search-box {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#country-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+#country-list li {
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  display: flex;
+}
+
+#country-info img {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=goit-js-hw-12-countries.4d663569.css.map */
