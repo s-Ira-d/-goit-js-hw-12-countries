@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir build"
+    "build": "parcel build index.html --dist-dir build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://s-Ira-d.github.io/-goit-js-hw-12-countries",
   "keywords": [],
   "author": "Ira",
   "license": "ISC",
