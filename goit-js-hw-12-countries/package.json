@@ -1,10 +1,10 @@
 {
   "name": "goit-js-hw-12-countries",
   "version": "1.0.0",
- "scripts": {
-  "start": "parcel index.html",
-  "build": "parcel build index.html --dist-dir build --public-url /-goit-js-hw-12-countries/"
-},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir build --public-url /-goit-js-hw-12-countries/"
+  },
   "homepage": "https://s-Ira-d.github.io/-goit-js-hw-12-countries",
   "keywords": [],
   "author": "Ira",
@@ -16,5 +16,10 @@
     "@pnotify/core": "^5.2.0",
     "@pnotify/mobile": "^5.2.0",
     "lodash.debounce": "^4.0.8"
+  },
+  "targets": {
+    "default": {
+      "publicUrl": "./"
+    }
   }
 }
