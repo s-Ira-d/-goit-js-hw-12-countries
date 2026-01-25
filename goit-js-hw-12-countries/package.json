@@ -2,8 +2,9 @@
   "name": "goit-js-hw-12-countries",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir build --public-url /-goit-js-hw-12-countries/"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "homepage": "https://s-Ira-d.github.io/-goit-js-hw-12-countries",
   "keywords": [],
